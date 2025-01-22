@@ -5,7 +5,7 @@ public class Main {
         byte a2 = -54;
         // definicija
         short x = 2;
-        int myWidth = 562;
+        int myWidth;
         long myHeight = 21279912;
         // inicjalizacija
         myWidth = 5252;
@@ -16,12 +16,13 @@ public class Main {
 
         boolean znak2 = znak == znak1;
 
-        /*System.out.println(x + myWidth);
+        System.out.println(x + myWidth);
+        System.out.println(x + myWidth);
         System.out.println(x - myWidth);
         System.out.println(x * myWidth);
         System.out.println(x / myWidth); // cijeloborjno dijeljenje
         System.out.println(x % myWidth); // dijeljenje s ostatkom
-        System.out.println((float)x / myWidth);*/
+        System.out.println((float)x / myWidth);
 
         System.out.println("float + double = " + (decimalni + decimalni2));
         System.out.println("float - double = " + (decimalni - decimalni2));
@@ -59,19 +60,19 @@ public class Main {
         System.out.println("Korijen od 400 = " + Math.sqrt(400));
         System.out.println("Zaokruzen E broj na 2 decimale = " + Math.round(Math.E * 100) / 100.0f);
 
-        // Home work - 1
+        // Homework - 1
         int a = 12;
         int b = 45;
         int zbroj = a + b;
         System.out.println("Zboj broja a=" + a + " i broja b=" + b + " jednak je c=" + zbroj);
 
-        // Home work - 2
+        // Homework - 2
         System.out.println("Bruno\tPodrug\n\nSplit");
 
-        // Home work - 3
+        // Homework - 3
         float side1 = 3.4f;
         float side2 = 7.39f;
         double hipotenuza = Math.sqrt(Math.pow(side1, 2) + Math.pow(side2, 2));
-        System.out.println("Duljina hipotune trokuta je = " + hipotenuza);
+        System.out.println("Duljina hipotenuze trokuta je = " + hipotenuza);
     }
 }
